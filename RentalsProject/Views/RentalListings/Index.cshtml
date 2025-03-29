@@ -1,0 +1,167 @@
+﻿@model SortedPaginatedList<RentalListing>
+
+@{
+    ViewData["Title"] = "Index";
+    RentalListing? columns = default!;
+}
+
+<h1>Rental Listings</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index">
+    <input type="text" name="search" asp-for="SearchCriteria" /> 
+    @* or <input type="text" name="search" class="@ModelSearchCriteria" /> *@
+    <input type="submit" value="Search" class="btn btn-primary" />
+    <input type="submit" value="Reset" name="Reset" class="btn btn-primary" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-sortBy="@nameof(RentalListing.ListingSummary)">
+                    @Html.DisplayNameFor(model => columns.ListingSummary)
+                </a>
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.ListingDetails)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.ListingAddress)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.CivicNumber)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.StreetName)
+            </th>
+
+            <th>
+                <a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-sortBy="@nameof(RentalListing.City)">
+                    @Html.DisplayNameFor(model => columns.City)
+                </a>
+            </th>
+
+            <th>
+                <a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-sortBy="@nameof(RentalListing.Province)">
+                    @Html.DisplayNameFor(model => columns.Province)
+                </a>
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.PostalCode)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.ListingPricePerDay)
+            </th>
+
+            <th>
+                <a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-sortBy="@nameof(RentalListing.NumberOfBedrooms)">
+                    @Html.DisplayNameFor(model => columns.NumberOfBedrooms)
+                </a>
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.NumberOfBathrooms)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => columns.SizeInSquareFeet)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model) 
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListingSummary)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListingDetails)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListingAddress)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CivicNumber)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.StreetName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Province)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostalCode)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListingPricePerDay)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfBedrooms)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfBathrooms)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.SizeInSquareFeet)
+                </td>
+
+                <td>
+                    @if (item.AllowModify)
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <span> | </span>
+                    }
+
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                    @if (item.AllowModify)
+                    {
+                        <span> | </span>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>Page @Model.PageNumber out of @Model.TotalPages</p>
+
+@{
+    var prevDisabled = Model.HasPreviousPage ? "" : "disabled";
+    var nextDisabled = Model.HasNextPage ? "" : "disabled";
+}
+
+<a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-pageNumber="@Model.PreviousPageNumber" class="btn btn-info @prevDisabled">
+    Previous
+</a>
+
+<a asp-action="Index" asp-route-previousSort="@Model.PreviousSort" asp-route-pageNumber="@Model.NextPageNumber" class="btn btn-info @nextDisabled">
+    Next
+</a>

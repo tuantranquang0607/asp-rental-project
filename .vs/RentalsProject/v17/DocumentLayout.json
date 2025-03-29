@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\controllers\\rentallistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\controllers\\rentallistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\controllers\\rentallistingsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\controllers\\rentallistingsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D4E3E8-7C35-40B0-B58E-914522127F5B}|RentalListings.Models\\RentalListings.Models.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentallistings.models\\rentallistingdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D4E3E8-7C35-40B0-B58E-914522127F5B}|RentalListings.Models\\RentalListings.Models.csproj|solutionrelative:rentallistings.models\\rentallistingdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D4E3E8-7C35-40B0-B58E-914522127F5B}|RentalListings.Models\\RentalListings.Models.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentallistings.models\\rentallistingsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D4E3E8-7C35-40B0-B58E-914522127F5B}|RentalListings.Models\\RentalListings.Models.csproj|solutionrelative:rentallistings.models\\rentallistingsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\rentalsproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\rentalsproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\models\\rentallisting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\models\\rentallisting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\views\\rentallistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\views\\rentallistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\views\\reservations\\ownerreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\views\\reservations\\ownerreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|c:\\nbcc-gamingexperiencedevelopment\\term7-fall2024\\serversidewebdev-asp.net\\asp.net-rental_project\\rentalsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C16772DA-8522-4017-B8DA-E73697635ABE}|RentalsProject\\RentalsProject.csproj|solutionrelative:rentalsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RentalListingsController.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\RentalListingsController.cs",
+              "RelativeDocumentMoniker": "RentalsProject\\Controllers\\RentalListingsController.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\RentalListingsController.cs",
+              "RelativeToolTip": "RentalsProject\\Controllers\\RentalListingsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:28:41.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentalsProject.csproj",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\RentalsProject.csproj",
+              "RelativeDocumentMoniker": "RentalsProject\\RentalsProject.csproj",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\RentalsProject.csproj",
+              "RelativeToolTip": "RentalsProject\\RentalsProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T02:05:05.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentalListingDetailsDTO.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalListings.Models\\RentalListingDetailsDTO.cs",
+              "RelativeDocumentMoniker": "RentalListings.Models\\RentalListingDetailsDTO.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalListings.Models\\RentalListingDetailsDTO.cs",
+              "RelativeToolTip": "RentalListings.Models\\RentalListingDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:03:24.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RentalListingSummaryDTO.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalListings.Models\\RentalListingSummaryDTO.cs",
+              "RelativeDocumentMoniker": "RentalListings.Models\\RentalListingSummaryDTO.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalListings.Models\\RentalListingSummaryDTO.cs",
+              "RelativeToolTip": "RentalListings.Models\\RentalListingSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:29:03.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Models\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "RentalsProject\\Models\\ReservationViewModel.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Models\\ReservationViewModel.cs",
+              "RelativeToolTip": "RentalsProject\\Models\\ReservationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:12:01.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalListingsApiController.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\RentalListingsApiController.cs",
+              "RelativeDocumentMoniker": "RentalsProject\\Controllers\\RentalListingsApiController.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\RentalListingsApiController.cs",
+              "RelativeToolTip": "RentalsProject\\Controllers\\RentalListingsApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:07:14.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OwnerReservations.cshtml",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\Reservations\\OwnerReservations.cshtml",
+              "RelativeDocumentMoniker": "RentalsProject\\Views\\Reservations\\OwnerReservations.cshtml",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\Reservations\\OwnerReservations.cshtml",
+              "RelativeToolTip": "RentalsProject\\Views\\Reservations\\OwnerReservations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T01:03:47.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RentalsProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RentalsProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T01:03:40.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalListing.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Models\\RentalListing.cs",
+              "RelativeDocumentMoniker": "RentalsProject\\Models\\RentalListing.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Models\\RentalListing.cs",
+              "RelativeToolTip": "RentalsProject\\Models\\RentalListing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:03:19.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\RentalListings\\Index.cshtml",
+              "RelativeDocumentMoniker": "RentalsProject\\Views\\RentalListings\\Index.cshtml",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Views\\RentalListings\\Index.cshtml",
+              "RelativeToolTip": "RentalsProject\\Views\\RentalListings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T01:02:12.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "RentalsProject\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\NBCC-GamingExperienceDevelopment\\Term7-Fall2024\\ServerSideWebDev-ASP.NET\\ASP.Net-Rental_Project\\RentalsProject\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "RentalsProject\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:32:20.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

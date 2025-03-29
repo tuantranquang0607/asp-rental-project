@@ -1,0 +1,126 @@
+﻿@model RentalsProject.Models.RentalListing
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Rental Listing</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="ListingSummary" class="control-label"></label>
+                <input asp-for="ListingSummary" class="form-control" />
+                <span asp-validation-for="ListingSummary" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ListingDetails" class="control-label"></label>
+                <input asp-for="ListingDetails" class="form-control" />
+                <span asp-validation-for="ListingDetails" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ListingAddress" class="control-label"></label>
+                <input asp-for="ListingAddress" class="form-control" />
+                <span asp-validation-for="ListingAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CivicNumber" class="control-label"></label>
+                <input asp-for="CivicNumber" class="form-control" />
+                <span asp-validation-for="CivicNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StreetName" class="control-label"></label>
+                <input asp-for="StreetName" class="form-control" />
+                <span asp-validation-for="StreetName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Province" class="control-label"></label>
+                <input asp-for="Province" class="form-control" />
+                <span asp-validation-for="Province" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PostalCode" class="control-label"></label>
+                <input asp-for="PostalCode" class="form-control" />
+                <span asp-validation-for="PostalCode" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ListingPricePerDay" class="control-label"></label>
+                <input asp-for="ListingPricePerDay" class="form-control" />
+                <span asp-validation-for="ListingPricePerDay" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NumberOfBedrooms" class="control-label"></label>
+                <input asp-for="NumberOfBedrooms" class="form-control" />
+                <span asp-validation-for="NumberOfBedrooms" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NumberOfBathrooms" class="control-label"></label>
+                <input asp-for="NumberOfBathrooms" class="form-control" />
+                <span asp-validation-for="NumberOfBathrooms" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SizeInSquareFeet" class="control-label"></label>
+                <input asp-for="SizeInSquareFeet" class="form-control" />
+                <span asp-validation-for="SizeInSquareFeet" class="text-danger"></span>
+            </div>
+
+            @if (Model.HasRentalImage)
+            {
+                <div class="form-group">
+                    <label asp-for="RentalImage" class="control-label"></label>
+
+                    <a asp-action="Display" asp-controller="Image" asp-route-id="@Model.Id">
+                        <img src="@Url.Action("Display","Image", new {Id = Model.RentalImageId})" alt="Rental Image" />
+                    </a>
+                </div>
+            }
+
+            <div class="form-group">
+                <dl>
+                    <dt>
+                        <label asp-for="RentalImage"></label>
+                    </dt>
+
+                    <dd>
+                        <input asp-for="RentalImage" type="file" name="upload" />
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

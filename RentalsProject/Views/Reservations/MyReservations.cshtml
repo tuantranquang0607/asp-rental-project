@@ -1,0 +1,42 @@
+﻿@model IEnumerable<RentalsProject.Models.ReservationViewModel>
+
+@{
+    ViewData["Title"] = "My Reservations";
+}
+
+<h1>My Reservation Requests</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Listing Summary</th>
+            <th>City</th>
+            <th>Province</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Requester Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ListingSummary</td>
+                <td>@item.City</td>
+                <td>@item.Province</td>
+                <td>@item.CheckIn.ToString("g")</td>
+                <td>@item.CheckOut.ToString("g")</td>
+                <td>@item.RequesterName</td>
+                <td>@item.RequesterPhone</td>
+                <td>@item.RequesterEmail</td>
+                <td>
+                    <a asp-action="Details" asp-controller="RentalListings" asp-route-id="@item.RentalListingId" class="nav-link">Details</a>
+                    <a asp-action="Cancel" asp-controller="Reservations" asp-route-id="@item.Id" class="nav-link">Cancel</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
