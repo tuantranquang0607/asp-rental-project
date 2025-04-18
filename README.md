@@ -1,4 +1,4 @@
-# Personal-Bookstore-Project
+# Simple Rental Management Web Application
 
 I made this project to showcase what I learned in the ASP.NET course.<br><br>
 
